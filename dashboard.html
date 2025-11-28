@@ -1,0 +1,42 @@
+<!DOCTYPE html><html><head><meta charset="UTF-8" />
+<title>Dashboard — Sevyn 7-Year Plan</title>
+<link rel="stylesheet" href="styles.css" />
+<style>
+.dash-container{max-width:1200px;margin:auto;padding:40px 20px;}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:30px;margin-top:40px;}
+.card{background:white;padding:24px;border-radius:16px;box-shadow:0 6px 20px rgba(0,0,0,0.1);transition:.3s;}
+.card:hover{transform:translateY(-6px);}
+.progress-bar{width:100%;height:12px;background:#ddd;border-radius:20px;margin-top:10px;}
+.progress{height:100%;background:var(--tiffany);}
+.section-title{font-size:30px;font-weight:600;margin-top:40px;}
+.notes-box{background:white;padding:30px;border-radius:16px;box-shadow:0 6px 20px rgba(0,0,0,0.1);margin-top:40px;}
+.notes-box textarea{width:100%;height:200px;border:none;outline:none;font-size:18px;font-family:Poppins;background:var(--cream);padding:20px;border-radius:12px;}
+</style></head>
+<body>
+<header><h1>DASHBOARD</h1>
+<nav><a href='index.html'>Home</a><a href='dashboard.html'>Dashboard</a>
+<a href='year1.html'>Year 1</a><a href='year2.html'>Year 2</a><a href='year3.html'>Year 3</a>
+<a href='year4.html'>Year 4</a><a href='year5.html'>Year 5</a><a href='year6.html'>Year 6</a>
+<a href='year7.html'>Year 7</a><a href='contact.html'>Contact</a></nav></header>
+<section class='hero'><h2>Sevyn Era Dashboard</h2><p>Your command center for tracking the entire 7-year execution plan.</p></section>
+<div class='dash-container'>
+<h2 class='section-title'>Overall Progress</h2>
+<div class='card'><h3>Total Blueprint Completion</h3>
+<div class='progress-bar'><div class='progress' style='width:12%;'></div></div>
+<p>12% Complete — Foundation Era underway</p></div>
+<h2 class='section-title'>Year-by-Year Quick Links</h2>
+<div class='grid'>
+<a class='card' href='year1.html'>Year 1</a><a class='card' href='year2.html'>Year 2</a>
+<a class='card' href='year3.html'>Year 3</a><a class='card' href='year4.html'>Year 4</a>
+<a class='card' href='year5.html'>Year 5</a><a class='card' href='year6.html'>Year 6</a>
+<a class='card' href='year7.html'>Year 7</a></div>
+<h2 class='section-title'>Key KPIs</h2>
+<div class='grid'>
+<div class='card'><h3>Audience Growth</h3><div class='progress-bar'><div class='progress' style='width:20%;'></div></div></div>
+<div class='card'><h3>Episode Production</h3><div class='progress-bar'><div class='progress' style='width:5%;'></div></div></div>
+<div class='card'><h3>Brand Assets</h3><div class='progress-bar'><div class='progress' style='width:15%;'></div></div></div>
+<div class='card'><h3>Revenue Streams</h3><div class='progress-bar'><div class='progress' style='width:8%;'></div></div></div>
+</div>
+<h2 class='section-title'>Notes & Strategy</h2>
+<div class='notes-box'><textarea placeholder='Write ideas, goals, reminders...'></textarea></div></div>
+<footer>© 2025 THE SEVYN ERA</footer></body></html>
